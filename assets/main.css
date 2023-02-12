@@ -1,0 +1,30 @@
+.header div {
+  display: inline-block;
+  color: white;
+}
+.header {
+  background-color: black;
+}
+.navbar-nav a {
+  color: white;
+}
+.navbar-brand {
+  color: white;
+}
+.btn-outline-success {
+  color: white;
+  border-color: white;
+}
+.hero {
+  position: absolute;
+  padding: 0;
+  top: 0;
+  z-index: -1;
+}
+#top-nav {
+  background-color: black;
+  align-content: right;
+}
+.navbar-brand {
+  font-size: 16px;
+}
