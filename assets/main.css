@@ -5,10 +5,13 @@
 .header {
   background-color: black;
 }
-.navbar-nav a {
+.container-fluid div {
+  text-align: right;
+}
+hr {
   color: white;
 }
-.navbar-brand {
+.navbar-nav a {
   color: white;
 }
 .btn-outline-success {
@@ -23,8 +26,71 @@
 }
 #top-nav {
   background-color: black;
-  align-content: right;
+  display: flex;
+  justify-content: right;
+  text-align: right;
+}
+#main-nav {
+  border-bottom: white;
 }
 .navbar-brand {
-  font-size: 16px;
+  font-size: 20px;
+  color: white;
+}
+.card {
+  margin: 15rem auto;
+}
+.card h5 {
+  text-align: center;
+}
+.card-body label {
+  font-display: flex;
+}
+.maincard {
+  display: block;
+}
+img {
+  width: 25rem;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.couple-sitting {
+  display: flex;
+  justify-content: center;
+}
+.oscarcare {
+  width: 250px;
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+.oscarcareheader {
+  padding-top: 40px;
+  padding-bottom: 0;
+  width: 250px;
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+}
+.firstcouple {
+  text-align: center;
+}
+.coverageform {
+  width: 60rem;
+  padding-top: 400px;
+  padding-bottom: 40px;
+}
+.coverageformmain {
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+.oscarlink {
+  padding-left: 40px;
+  color: blue;
+}
+.firstcouple {
+  padding-top: 0px;
 }
