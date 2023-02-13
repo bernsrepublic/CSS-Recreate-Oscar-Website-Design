@@ -158,3 +158,9 @@ img {
   color: rgb(9, 118, 243);
   padding-left: 350px;
 }
+#mobilesite {
+  display: block;
+  margin: auto;
+  width: 1200px;
+  padding-top: 10px;
+}
