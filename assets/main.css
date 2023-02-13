@@ -5,8 +5,11 @@
 .header {
   background-color: black;
 }
-.container-fluid div {
-  text-align: right;
+.container-fluid {
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  display: block;
 }
 hr {
   color: white;
@@ -26,9 +29,6 @@ hr {
 }
 #top-nav {
   background-color: black;
-  display: flex;
-  justify-content: right;
-  text-align: right;
 }
 #main-nav {
   border-bottom: white;
@@ -93,4 +93,62 @@ img {
 }
 .firstcouple {
   padding-top: 0px;
+}
+#lorem {
+  width: 1000px;
+  margin: auto;
+  text-align: left;
+  font-size: 12px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.enoughjargon {
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 500px;
+}
+#enoughjargon {
+  background-color: beige;
+  width: 1000px;
+  height: 800px;
+  display: block;
+  margin: auto;
+}
+.dadandbaby {
+  display: flex;
+  justify-content: center;
+  padding-left: 350px;
+  padding-bottom: 0;
+}
+.dadandbabytext {
+  width: 350px;
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+.dadandbabyheader {
+  padding-top: 40px;
+  padding-bottom: 0;
+  width: 350px;
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+}
+.card {
+  background-color: beige;
+  border-color: beige;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#rowofimages {
+  display: flex;
+  flex-wrap: row wrap;
+  padding-left: 50px;
+}
+.card-text {
+  padding-left: 20px;
 }
